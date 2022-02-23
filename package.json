@@ -1,0 +1,36 @@
+{
+	"name": "rollup-boilerplate",
+	"description": "My boilerplate for Rollup/Babel/PostCSS/HTMLMinifier.",
+	"author": {
+		"name": "rowrawer",
+		"email": "rowrawer@gmail.com",
+		"url": "https://github.com/rowrawer"
+	},
+	"repository": "github:rowrawer/rollup-boilerplate",
+	"version": "1.0.0",
+	"private": true,
+	"devDependencies": {
+		"@babel/cli": "^7.13.16",
+		"@babel/core": "^7.14.0",
+		"@babel/preset-env": "^7.14.1",
+		"@rollup/plugin-babel": "^5.2.2",
+		"@rollup/plugin-commonjs": "^21.0.1",
+		"@rollup/plugin-node-resolve": "^13.0.0",
+		"browserlist": "^1.0.1",
+		"html-minifier-terser": "^7.0.0-alpha.1",
+		"postcss": "^8.2.15",
+		"postcss-preset-env": "^7.4.1",
+		"rollup": "^2.47.0",
+		"rollup-plugin-cleaner": "^1.0.0",
+		"rollup-plugin-copy-watch": "^0.0.1",
+		"rollup-plugin-livereload": "^2.0.0",
+		"rollup-plugin-postcss": "^4.0.0",
+		"rollup-plugin-serve": "^1.1.0",
+		"rollup-plugin-terser": "^7.0.2"
+	},
+	"scripts": {
+		"build": "rollup -c",
+		"start": "rollup -c -w"
+	},
+	"browserslist": "defaults"
+}
